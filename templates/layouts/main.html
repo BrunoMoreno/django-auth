@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="https://bootswatch.com/5/zephyr/bootstrap.min.css">
 
     <style>
+        body { font-size: 13px;}
         .container {margin-top: 40px;}
+        .btn, .form-control {border-radius: 0;}
     </style>
 </head>
 <body> 
@@ -17,7 +19,9 @@
 
     <div class="container">
         <div class="row">
-            {% block content %}{% endblock content %}
+            <div class="col-12">
+                {% block content %}{% endblock content %}
+            </div>
         </div>
     </div>
 </body>
