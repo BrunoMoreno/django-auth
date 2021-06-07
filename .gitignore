@@ -1,4 +1,8 @@
 db.sqlite3
 sent_emails/
 
+# python files
 *.pyc
+
+# mac files
+.DS_Store
